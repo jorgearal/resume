@@ -91,10 +91,9 @@ experience:
 
   items:
     - company: EPAM Anywhere
-      link: '#'
       tags: Full-time
       date: 2021.11 - Today
-      role: Fullstack developer
+      role: Senior Software Engineer
       location: Colombia
       description: |
         Contributed expertise as part of the Customer Preference Platform (Tier 1) team and the Inventory team (Tier 0) within the Nordstrom account, playing a vital role in enhancing customer experiences and optimizing inventory management.
@@ -108,7 +107,7 @@ experience:
       link:
       tags: Full-time
       date: 2020.07 - 2021.10
-      role: Fullstack Developer
+      role: Senior Software Engineer
       location: Colombia
       description: |
         Contributed to the fullstack development of the RAIDER project, a significant advancement of an existing Integrated Development Environment (IDE).
@@ -144,11 +143,68 @@ experience:
         + Successfully led a high-performing team of 3 engineers and 2 testers, guiding them through the development lifecycle and ensuring timely project delivery.
         + Orchestrated an entire migration project, from planning and scoping to execution and validation, ensuring minimal disruptions to business operations of the unit transactional portal.
 
+skill:
+  show: true
+  order: 4
+  title: Skills
+
+  items:
+    - name: Javascript
+      level: 4
+    - name: Java
+      level: 5
+    - name: AWS
+      level: 4
+    - name: DevOps
+      level: 4
+    - name: System design
+      level: 3
+
+  groups:
+    - name: Frontend
+      item:
+        - Angular
+        - React
+        - Bootstrap
+    - name: Backend
+      item:
+        - Java + Springboot
+        - Node.JS + Express
+        - Skill G
+    - name: Databases
+      item:
+        - MySql
+        - Postgresql
+    - name: AWS
+      item:
+        - IAM
+        - EC2
+        - EKS
+        - RDS
+        - S3
+        - CF
+        - R53
+        - Lambda
+        - Cloudwatch
+        - VPC
+        - API Gateway
+        - DynamoDB
+    - name: DevOps
+      item:
+        - Docker
+        - Kubernetes
+        - Helm
+        - Gitlab
+        - Azure DevOps
+        - Github
+        - Sonarqube
+        - JMeter
+        - Bash 
+
 education:
   show: true
   order: 5
   title: Education
-
   items:
     - institution: Universidad del Quindío
       link: 'https://www.uniquindio.edu.co'
@@ -228,5 +284,6 @@ reference:
       link: 'https://www.linkedin.com/in/dival-mauricio-hoyos-castro-899423146/'
       title: Senior Software Engineer
       institution: Softserve
+
 
 close: <strong>Sorry, my resume has been hidden.</strong>
