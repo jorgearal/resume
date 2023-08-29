@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Computer and systems engineer with knowledge in fullstack development using programming languages such as Javascript and Java; cloud technologies such as AWS; system design knowledge and knowledge in DevOps
+    Dedicated Fullstack Developer with 6 years of experience in designing and delivering robust web applications for banking and retail industries. Proficient in frontend technologies such as React and Angular, as well as backend development using Node.js and Java with Spring Boot. Adept in system design, AWS architecture, and DevOps practices. Committed to delivering high-quality, scalable solutions to drive business growth.
 
 experience:
   show: true
@@ -97,12 +97,12 @@ experience:
       role: Fullstack developer
       location: Colombia
       description: |
-        Nordstrom account, working on Customer Preference Platform (Tier 1) team and Inventory team (Tier 0).
-        + Standardize containerized application deployments from on-premise systems to kubernetes.
-        + Implement new features and maintain the customers wishlist section.
+        Contributed expertise as part of the Customer Preference Platform (Tier 1) team and the Inventory team (Tier 0) within the Nordstrom account, playing a vital role in enhancing customer experiences and optimizing inventory management.
+        + Standardize containerized application deployments from on-premise systems to Kubernetes.
+        + Implement new features and maintain the customers wishlist section using React.
         + Set up effective monitoring alerts using Splunk and New Relic to catch issues, ensuring optimal system performance and reliability.
-        + Addressing PagerDuty alerts and resolving related errors to ensure high application availability.
-        + Assisted my team during the log4j issue by quickly redeploying services, issuing new certificates, and rebuilding keystores within a short window to ensure uninterrupted application availability.
+        + Responding to PagerDuty alerts and addressing related errors. I made sure that application availability remained high, guaranteeing a smooth experience for our customers.
+        + During a critical log4j issue, I've collaborated closely with my team to mitigate potential disruptions. I quickly redeployed services, issued new certificates, and rebuilt keystores within a short window, ensuring uninterrupted application availability.
 
     - company: Rockwell Automation
       link:
@@ -111,11 +111,11 @@ experience:
       role: Fullstack Developer
       location: Colombia
       description: |
-        Fullstack development for RAIDER project, this is a new version of an existing IDE.
-        + Implement new features from UI/UX designs to development releases.
-        + Create new E2E tests to assure quality on subsequent releases.
-        + Containerize microservices and deploy applications, services, volumes, and networks using Helm and Skaffold.
-        + Build shell scripts to automate build and deploy tasks during the CI/CD process.
+        Contributed to the fullstack development of the RAIDER project, a significant advancement of an existing Integrated Development Environment (IDE).
+        + Translated UI/UX designs into tangible features by engaging in the end-to-end development lifecycle, resulting in the successful implementation of new functionalities.
+        + Demonstrated commitment to maintaining high software quality by creating and executing comprehensive E2E tests, ensuring consistent excellence in subsequent releases.
+        + Played a pivotal role in modernizing the project's infrastructure by containerizing microservices using Helm and Skaffold, thereby enhancing scalability and deployment efficiency.
+        + Applied automation expertise by crafting shell scripts that streamlined build and deployment processes within the Continuous Integration and Continuous Deployment (CI/CD) pipeline.
 
     - company: Tu Amigo / Maku
       link:
@@ -126,8 +126,9 @@ experience:
       description: |
         Maku was a fintech that wanted to tackle a social security problem in the city of Medellin called "Gota a gota"
         + Develop and test the business idea on the field in the "La Milagrosa" neighborhood.
-        + Develop an MVP application for clients and Maku friends (shop vendors from small corner stores).
-        + Refine the initial system design to reduce cloud costs.
+        + Navigated regulatory challenges and compliance considerations inherent to the financial technology industry, ensuring the application adhered to industry standards.
+        + As Lead Developer, spearheaded the end-to-end development of the application, including frontend and backend components, leveraging modern technologies and best practices.
+        + Orchestrated the deployment of the application on AWS, optimizing server configurations and implementing scalability measures to ensure optimal performance and user experience.
 
     - company: Bancolombia
       link:
@@ -140,56 +141,8 @@ experience:
         + Built an updated PINPAD authentication scheme for SUFI (a Bancolombia's business unit).
         + Developed an application that enabled users to apply for vehicle loans online, allowing them to complete the entire process online and only visit the dealership to sign legal paperwork and claim their vehicle.
         + Participated in setting up an AWS organization and standardized the DevOps process for the business unit.
-
-skill:
-  show: true
-  order: 4
-  title: Skills
-  description: |
-    The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-    The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-    When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-    There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
-  items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
-
-  groups:
-    - name: Group A Skills
-      item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+        + Successfully led a high-performing team of 3 engineers and 2 testers, guiding them through the development lifecycle and ensuring timely project delivery.
+        + Orchestrated an entire migration project, from planning and scoping to execution and validation, ensuring minimal disruptions to business operations of the unit transactional portal.
 
 education:
   show: true
@@ -198,7 +151,7 @@ education:
 
   items:
     - institution: Universidad del Quindío
-      link: 'www.uniquindio.edu.co'
+      link: 'https://www.uniquindio.edu.co'
       date: 2011 - 2016
       major: Computer and systems engineering
       degree: Bachelor
@@ -261,55 +214,19 @@ language:
     - idiom: English
       level: Professional
 
-interest:
-  show: true
-  order: 12
-  title: Interests
-  description: |
-    The interests section in a resume typically refers to a section where you can mention your hobbies, interests, and activities outside of work or school. This section can give potential employers a better idea of your personality, your values, and your interests beyond your professional experience.
-
-    Including an interest section in your resume can be helpful if your interests are relevant to the job you are applying for, such as if you are applying for a job in a creative field and your hobbies include painting or writing. It can also be useful if you are applying for a job where teamwork or social skills are important, and you can mention interests that demonstrate those qualities.
-
-    However, it is important to be selective when including an interest section in your resume, and to choose interests that are appropriate and professional. Avoid including controversial or potentially offensive interests, and focus on interests that showcase your positive qualities and strengths.
-
-  items:
-    - item: Reading
-      link: '#'
-    - item: Cooking
-      link:
-
 reference:
   show: true
   order: 14
   title: References
-  description: |
-    A reference section in a resume is a list of individuals who can vouch for your skills, work ethic, and character. These individuals are typically former managers, colleagues, or mentors who have worked closely with you in the past and can provide insight into your abilities and work style.
-
-    It's important to note that including a reference section in a resume is not always necessary, and some employers may prefer to request references separately. If you do choose to include a reference section, it should typically be located at the end of your resume.
-
-    When listing references, be sure to include the individual's name, job title, company name, phone number, and email address. It's also a good idea to ask for the individual's permission before listing them as a reference, and to let them know what kind of job you are applying for so they can speak to your relevant skills and experience.
-
-    It's important to choose references who can provide a positive and comprehensive evaluation of your work. Avoid listing family members or friends as references, and instead focus on individuals who can speak to your professional abilities and accomplishments.
-
   items:
-    - name: Foo One
-      link: '#'
-      title: Backend Developer
-      institution: Second Company
-      address: 1234 Example St, XXX, XY 11111
-      email: foo.one@example.com
-      phone: 111-222-333
-      description: |
-        Foo One was my colleague in Second Company.
+    - name: Nolberto Rodríguez Castellanos
+      link: 'https://www.linkedin.com/in/nolberto-castellanos-rodriguez/'
+      title: Mobile applications Developer
+      institution: Uber
 
-    - name: Bar Two
-      link:
-      title: Professor
-      institution: Example University
-      address: 4321 Example St, YYY, XY 22222
-      email: bar.two@example.com
-      phone: 444-555-666
-      description: |
-        Bar Two was my advisor at Example University.
+    - name: Dival Mauricio Hoyos Castro
+      link: 'https://www.linkedin.com/in/dival-mauricio-hoyos-castro-899423146/'
+      title: Senior Software Engineer
+      institution: Softserve
 
 close: <strong>Sorry, my resume has been hidden.</strong>
