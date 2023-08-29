@@ -223,26 +223,18 @@ certificate:
     - name: Certified SAFe Practitioner
       issuer: by Scaled Agile
       date: 2021
-      description: |
-        It's my Example Certificate One by Example.
 
     - name: Developing on AWS
       issuer: by AWS
       date: 2019
-      description: |
-        It's my Example Certificate Two by Example.
 
     - name: Architecting on AWS
       issuer: by AWS
       date: 2019
-      description: |
-        It's my Example Certificate Two by Example.
 
     - name: SEI Certified PSP Developer
       issuer: by Carnegie Mellon University
       date: 2017
-      description: |
-        It's my Example Certificate Two by Example.
 
 award:
   show: true
