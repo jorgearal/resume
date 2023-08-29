@@ -3,7 +3,7 @@ basic:
   title: Fullstack software Engineer           # job title
   avatar:
     show: true                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+    path: /assets/images/profile.jpg # avatar file path
 
 contact:
   # meta
@@ -84,14 +84,10 @@ profile:
   description: |
     Computer and systems engineer with knowledge in fullstack development using programming languages such as Javascript and Java; cloud technologies such as AWS; system design knowledge and knowledge in DevOps
 
-    A well-crafted profile section can help to grab the attention of potential employers and encourage them to read on and learn more about the applicant's qualifications and experience.
-
 experience:
   show: true
   order: 2
   title: Experiences
-  description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
     - company: EPAM Anywhere
@@ -103,7 +99,10 @@ experience:
       description: |
         Nordstrom account, working on Customer Preference Platform (Tier 1) team and Inventory team (Tier 0).
         + Standardize containerized application deployments from on-premise systems to kubernetes.
-        + Implement new features and maintain the customers wishlist section
+        + Implement new features and maintain the customers wishlist section.
+        + Set up effective monitoring alerts using Splunk and New Relic to catch issues, ensuring optimal system performance and reliability.
+        + Addressing PagerDuty alerts and resolving related errors to ensure high application availability.
+        + Assisted my team during the log4j issue by quickly redeploying services, issuing new certificates, and rebuilding keystores within a short window to ensure uninterrupted application availability.
 
     - company: Rockwell Automation
       link:
@@ -137,9 +136,10 @@ experience:
       role: Fullstack Developer
       location: Colombia
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Development of RESTful APIS and web applications, containment, and exposure of microservices in AWS, integrating relational and non-relational databases. Management of DevOps tools through Azure and Cloudformations of AWS. Integration with technologies such as DataPower and AS400 components.
+        + Built an updated PINPAD authentication scheme for SUFI (a Bancolombia's business unit).
+        + Developed an application that enabled users to apply for vehicle loans online, allowing them to complete the entire process online and only visit the dealership to sign legal paperwork and claim their vehicle.
+        + Participated in setting up an AWS organization and standardized the DevOps process for the business unit.
 
 skill:
   show: true
@@ -195,56 +195,43 @@ education:
   show: true
   order: 5
   title: Education
-  description: |
-    The education section in a resume is where you provide information about your academic background, including any degrees. In this section, you should include the name and location of the institution where you received your degree, the name of the degree or program you completed, and the date of graduation. If you have earned multiple degrees, list them in reverse chronological order, with the most recent degree first.
-
-    In addition to basic information about your education, you may also want to include any academic honors or awards you received, relevant coursework or projects, and your GPA if it is 3.0 or above. If you have recently graduated and do not have much work experience yet, highlighting your education and academic achievements can help demonstrate your potential to succeed in the workplace.
 
   items:
-    - institution: Example University
-      link: '#'
-      date: 2015 - 2018
-      major: Machine Learning
-      degree: Master
-      description: |
-        Additional information for this institution.
-        + First
-        + Second
-
-    - institution: Example University
-      link:
-      date: 2011 - 2015
-      major: Computer Science
+    - institution: Universidad del Quindío
+      link: 'www.uniquindio.edu.co'
+      date: 2011 - 2016
+      major: Computer and systems engineering
       degree: Bachelor
       description: |
-        Additional information for this institution.
-        + First
-        + Second
+        Worked as a teaching assistant on the programming courses for 6 semesters.
 
 certificate:
   show: true
   order: 6
   title: Certificates
-  description: |
-    The certificate section in a resume is a dedicated section where you can showcase any additional certifications or specialized training you have received. This section provides potential employers with a more complete picture of your skills and expertise, and can help you stand out from other candidates.
-
-    Certificates can come from a variety of sources, such as online courses, workshops, or professional development programs. Examples of certificates that might be relevant to include on your resume could include certifications in a particular software or technology, industry-specific certifications, or certifications related to a specific skill or area of expertise.
-
-    When including your certificates in your resume, be sure to provide the name of the certification, the institution or organization that issued it, and the date it was issued. You may also want to include a brief description of the skills or knowledge that the certification demonstrates.
-
-    The certificate section of your resume should be tailored to the specific job you are applying for, and should only include certifications that are relevant to the position. By highlighting your certifications, you can demonstrate your commitment to professional development and your expertise in a particular area.
 
   items:
-    - name: Example Certificate One
-      issuer: by Example
-      date: 2020
-      link: '#'
+    - name: Certified SAFe Practitioner
+      issuer: by Scaled Agile
+      date: 2021
       description: |
         It's my Example Certificate One by Example.
-    - name: Example Certificate Two
-      issuer: by Example
-      date: 2020
-      link:
+
+    - name: Developing on AWS
+      issuer: by AWS
+      date: 2019
+      description: |
+        It's my Example Certificate Two by Example.
+
+    - name: Architecting on AWS
+      issuer: by AWS
+      date: 2019
+      description: |
+        It's my Example Certificate Two by Example.
+
+    - name: SEI Certified PSP Developer
+      issuer: by Carnegie Mellon University
+      date: 2017
       description: |
         It's my Example Certificate Two by Example.
 
@@ -252,38 +239,24 @@ award:
   show: true
   order: 8
   title: Awards
-  description: |
-    The award section in a resume is a dedicated section where you can showcase any awards you have received. This section is particularly relevant for individuals who have received awards for their work in their field, such as employees who have received performance awards or industry-specific awards. In this section, you should list the name of the award, the organization or institution that awarded it, the date it was awarded, and any other relevant details.
-
-    When including your awards on your resume, be sure to focus on the most significant or relevant awards that showcase your skills and expertise. If you have received a long list of awards, you may want to consider including only the most recent or prestigious awards on your resume.
-
-    By highlighting your awards, you can demonstrate your achievements and accomplishments in your field, and can help differentiate yourself from other candidates. However, if you have not received any awards, it is not necessary to include this section in your resume.
-
   items:
-    - name: Example Awared One
-      awarder: by Example
-      date: 2022
-      link: '#'
+    - name: BINTEC's Hackathon
+      awarder: by Bancolombia
+      date: 2019
       description: |
-        It's my Example Awared One by Example.
-    - name: Example Awared Two
-      awarder: by Example
-      date: 2022
-      link:
+        Participated in a hackathon and led the team to secure 1st place, competing against 19 teams.
+    - name: Hackathon API's Bancolombia
+      awarder: by Bancolombia
+      date: 2018
       description: |
-        It's my Example Awared Two by Example.
+        Took an active role in a hackathon, contributing to our team's 2nd place victory, where we innovatively utilized a new set of Bancolombia APIs in our solution.
 
 language:
   show: true
   order: 11
   title: Languages
-  description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
-
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
-
   items:
-    - idiom: Chinese
+    - idiom: Spanish
       level: Native
     - idiom: English
       level: Professional
