@@ -27,11 +27,11 @@ contact:
   threema:                 # userid            | https://threema.id/userid
 
   # programmer
-  github: https://github.com/jorgearal                 # username          | https://github.com/username
+  github: jorgearal        # username          | https://github.com/username
   gitlab:                  # username          | https://gitlab.com/username
   bitbucket:               # username          | https://bitbucket.com/username
   stackoverflow:           # id or id/username | https://stackoverflow.com/users/id/username
-  leetcode: https://leetcode.com/jorgearal               # username          | https://leetcode.com/username
+  leetcode: jorgearal      # username          | https://leetcode.com/username
   codeforces:              # username          | https://codeforces.com/profile/username
   codewars:                # username          | https://www.codewars.com/users/username
   codepen:                 # username          | https://codepen.io/username
@@ -58,7 +58,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin: https://www.linkedin.com/in/jorgearal/               # username          | https://linkedin.com/in/username
+  linkedin: jorgearal      # username          | https://linkedin.com/in/username
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
